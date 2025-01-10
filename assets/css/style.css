@@ -20,6 +20,19 @@ h1, h2 {
     color: #184f63 ;
 }
 
+.sharp-corners, 
+.sharp-corners * {
+    border-radius: 0;
+}
+
+form .sharp-corners {
+    border-radius: 0;
+}
+
+button .sharp-corners {
+    border-radius: 0;
+}
+
 /* Header */
 
 #hero {
